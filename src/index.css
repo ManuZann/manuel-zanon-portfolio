@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Manrope:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap');
+
+:root {
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  color: #d8e0ea;
+  background:
+    radial-gradient(circle at top, rgba(20, 35, 63, 0.32), transparent 35%),
+    #050912;
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  --color-bg: #050912;
+  --color-panel: rgba(10, 15, 26, 0.82);
+  --color-line: rgba(145, 165, 194, 0.18);
+  --color-line-soft: rgba(145, 165, 194, 0.08);
+  --color-title: #f6f8fb;
+  --color-body: #d8e0ea;
+  --color-muted: #9eabba;
+  --color-subtle: #7e8c9f;
+  --color-accent: #8fb4ff;
+  --shadow-soft: 0 28px 64px rgba(0, 0, 0, 0.28);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top, rgba(20, 35, 63, 0.32), transparent 35%),
+    #050912;
+  color: var(--color-body);
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 18%),
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.04), transparent 24%);
+  pointer-events: none;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+main {
+  display: grid;
+}
+
+section {
+  position: relative;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: 'Sora', 'Manrope', sans-serif;
+  color: var(--color-title);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+h1 {
+  font-size: clamp(3rem, 7vw, 6.4rem);
+  max-width: 14ch;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3.35rem);
+}
+
+h3 {
+  font-size: clamp(1.45rem, 2.1vw, 2rem);
+}
+
+p,
+li,
+dd {
+  font-size: 1rem;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+.eyebrow,
+.project__index,
+.stack-group__label,
+.site-header__brand {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    max-width: 10ch;
+  }
+}

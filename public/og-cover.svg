@@ -1,0 +1,32 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#050912"/>
+  <rect x="48" y="48" width="1104" height="534" rx="30" fill="#0C1829" stroke="#223346"/>
+  <path d="M164 154H1036" stroke="#223346"/>
+  <path d="M164 218H1036" stroke="#223346"/>
+  <path d="M164 282H1036" stroke="#223346"/>
+  <path d="M164 346H1036" stroke="#223346"/>
+  <path d="M164 410H1036" stroke="#223346"/>
+  <path d="M164 474H1036" stroke="#223346"/>
+  <path d="M260 120V510" stroke="#223346"/>
+  <path d="M452 120V510" stroke="#223346"/>
+  <path d="M644 120V510" stroke="#223346"/>
+  <path d="M836 120V510" stroke="#223346"/>
+  <g filter="url(#blur)">
+    <circle cx="838" cy="188" r="12" fill="#8FB4FF"/>
+    <circle cx="936" cy="292" r="12" fill="#7BE0C4"/>
+    <circle cx="770" cy="390" r="12" fill="#D69C65"/>
+  </g>
+  <path d="M454 196H770L838 188" stroke="#8FB4FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M838 188L936 292L770 390" stroke="#7BE0C4" stroke-width="4" stroke-linecap="round"/>
+  <text x="128" y="170" fill="#8FB4FF" font-family="monospace" font-size="24" letter-spacing="4">MANUEL ZANON OLMOS</text>
+  <text x="128" y="290" fill="#F6F8FB" font-family="Sora, sans-serif" font-size="64" font-weight="700">Backend-first</text>
+  <text x="128" y="360" fill="#F6F8FB" font-family="Sora, sans-serif" font-size="64" font-weight="700">Full Stack Developer</text>
+  <text x="128" y="446" fill="#9EABBA" font-family="Manrope, sans-serif" font-size="28">Sistemas productivos, NestJS, React, Docker, SQL/NoSQL y criterio técnico para producto.</text>
+  <defs>
+    <filter id="blur" x="734" y="152" width="238" height="274" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="18" result="effect1_foregroundBlur_1_2"/>
+    </filter>
+  </defs>
+</svg>
